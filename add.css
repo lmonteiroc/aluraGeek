@@ -1,0 +1,219 @@
+    .cabecalhoPrincipal .container {
+        display: flex;
+        background: #FFFFFF;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 0px;
+        position: static;
+        width: 1136px;
+        height: 115px;
+        left: 152px;
+        top: 0px;
+    }
+    
+    .ajustesDoCbabecalho {
+        display: flex;
+        margin-left: 100px;
+        align-items: center;
+    }
+    
+    .barra {
+        margin-left: 50px;
+        border: none;
+        margin-top: 10px;
+        background-color: rgb(238, 237, 237);
+    }
+    
+    .icone {
+        background-color: rgb(238, 237, 237);
+        border-radius: 20px/20px;
+        width: 300px;
+        height: 40px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    
+    .btn-1 {
+        margin-left: 500px;
+        margin-bottom: 10px;
+        height: 50px;
+        color: blue;
+        background-color: white;
+        border: solid 1px blue;
+    }
+    
+    .btn-1:hover {
+        background-color: rgb(115, 115, 253)
+    }
+    
+    .pontilhado {
+        display: flex;
+        border: 1px dashed #C8C8C8;
+        border-width: 1px;
+        background-color: #FFFFFF;
+        font-family: verdana, arial;
+        font-size: 10pt;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .add_img {
+        display: grid;
+        justify-content: center;
+    }
+    
+    .add_interno {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .primeiro-formulario {
+        background: #E5E5E5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        left: 0px;
+        top: 0px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    
+    .primeiro-formulario-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #texto {
+        width: 131px;
+        height: 29px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .seuEmail {
+        position: static;
+        width: 559px;
+        height: 56px;
+        left: calc(50% - 559px/2);
+        top: 0px;
+    }
+    
+    .suaSenha {
+        position: static;
+        left: calc(50% - 559px/2);
+        top: 0px;
+        width: 480px;
+        height: 56px;
+    }
+    
+    .seuTexto {
+        position: static;
+        width: 559px;
+        height: 82px;
+        left: calc(50% - 559px/2);
+        margin-bottom: 30px;
+    }
+    
+    .btn-3 {
+        margin-bottom: 10px;
+        height: 41px;
+        color: white;
+        background-color: blue;
+        border: none;
+        width: 480px;
+        height: 56px;
+    }
+    
+    .btn-3:hover {
+        background-color: rgb(164, 164, 204);
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 64px;
+        position: static;
+        width: 100%;
+        height: 368px;
+        left: 0px;
+        top: 0px;
+        background: #EAF2FD;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .lista {
+        align-items: center;
+        justify-content: space-around;
+        width: 25%;
+    }
+    
+    #linha {
+        text-decoration: none;
+        font-family: 'Raleway';
+    }
+    
+    .formulario {
+        width: 45%;
+        text-decoration: none;
+    }
+    
+    .caixa {
+        position: static;
+        width: 434px;
+        height: 56px;
+        left: calc(50% - 434px/2);
+        top: 0px;
+    }
+    
+    .caixa2 {
+        position: static;
+        width: 434px;
+        height: 82px;
+        left: calc(50% - 434px/2);
+        top: 0px;
+    }
+    
+    .btn-2 {
+        margin-bottom: 10px;
+        height: 50px;
+        color: white;
+        background-color: blue;
+        border: none;
+    }
+    
+    .btn-2:hover {
+        background-color: rgb(164, 164, 204);
+    }
+    
+    .obs {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dev {
+        background-color: #FFFFFF;
+        margin-top: 5em;
+    }
